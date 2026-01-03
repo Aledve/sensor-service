@@ -6,11 +6,11 @@ on:
 
 env:
   AWS_REGION: us-east-1
-  ECS_CLUSTER: crm-cluster
-  ECS_SERVICE: forum-service
-  ECS_TASK_DEFINITION: forum-task
-  CONTAINER_NAME: forum-service
-  DOCKER_IMAGE: aledve/forum-service
+  ECS_CLUSTER: smart-parking-cluster
+  ECS_SERVICE: sensor-service
+  ECS_TASK_DEFINITION: sensor-task
+  CONTAINER_NAME: sensor-service
+  DOCKER_IMAGE: aledve/sensor-service
   DOCKER_TAG: latest
 
 jobs:
