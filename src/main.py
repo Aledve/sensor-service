@@ -19,4 +19,4 @@ app.include_router(sensor_controller.router)
 
 if __name__ == "__main__":
     # Correr en el puerto 10051 (o el que tengas asignado en tu arquitectura)
-    uvicorn.run("src.main:app", host="0.0.0.0", port=10051, reload=True)
+    uvicorn.run("src.main:app", host="0.0.0.0", port=10103, reload=True)
